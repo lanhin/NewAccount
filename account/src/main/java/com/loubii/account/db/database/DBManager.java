@@ -95,18 +95,6 @@ public abstract class DBManager<M, K> implements IDatabase<M, K> {
         return true;
     }
 
-    @SafeVarargs
-    @Override
-    public final boolean deleteByKeyInTx(@NotNull K... key) {
-        try {
-            getAbstractDao().deleteByKeyInTx(key);
-        } catch (SQLiteException e) {
-            Logger.e(e.toString());
-            return false;
-        }
-        return true;
-    }
-
     @Override
     public boolean deleteAll() {
         try {
@@ -122,18 +110,6 @@ public abstract class DBManager<M, K> implements IDatabase<M, K> {
     public boolean update(@NotNull M m) {
         try {
             getAbstractDao().update(m);
-        } catch (SQLiteException e) {
-            Logger.e(e.toString());
-            return false;
-        }
-        return true;
-    }
-
-    @SafeVarargs
-    @Override
-    public final boolean updateInTx(@NotNull M... m) {
-        try {
-            getAbstractDao().updateInTx(m);
         } catch (SQLiteException e) {
             Logger.e(e.toString());
             return false;
