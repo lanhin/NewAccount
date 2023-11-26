@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.loubii.account.ui.card.CardBelongActivity">
+    tools:context="com.lanhin.account.ui.card.CardBelongActivity">
 
     <include layout="@layout/layout_toolbar_header_title"/>
 

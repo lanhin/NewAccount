@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.loubii.account.ui.avtivity.MainTabActivity">
+    tools:context="com.lanhin.account.ui.avtivity.MainTabActivity">
 
 
 
@@ -27,7 +27,7 @@
                 android:layout_height="1px"
                 android:background="#e7e7e7" />
 
-            <com.loubii.account.view.MyFragmentTabHost
+            <com.lanhin.account.view.MyFragmentTabHost
                 android:id="@+id/tab_host"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

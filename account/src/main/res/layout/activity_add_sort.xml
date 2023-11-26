@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/colorTextWhite"
-    tools:context="com.loubii.account.ui.avtivity.AddSortActivity">
+    tools:context="com.lanhin.account.ui.avtivity.AddSortActivity">
 
     <!--<android.support.v7.widget.Toolbar-->
         <!--android:id="@+id/toolbar"-->

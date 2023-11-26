@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@color/mainBg"
     android:orientation="vertical"
-    tools:context="com.loubii.account.ui.avtivity.AddAccountActivity">
+    tools:context="com.lanhin.account.ui.avtivity.AddAccountActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -101,7 +101,7 @@
             android:id="@+id/tv_calendar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="12sp"
+            android:textSize="16sp"
             android:textColor="@color/colorPrimary"
             android:text= "今天"/>
 
@@ -110,7 +110,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
-            android:textSize="12sp"
+            android:textSize="14sp"
             android:textColor="@color/colorTextAddRemark"
             android:text="@string/hint_add_remark"/>
 

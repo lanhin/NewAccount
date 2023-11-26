@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:background="@color/mainBg"
     android:animateLayoutChanges="true"
-    tools:context="com.loubii.account.ui.avtivity.BudgetActivity">
+    tools:context="com.lanhin.account.ui.avtivity.BudgetActivity">
 
     <include layout="@layout/layout_toolbar_header_title"/>
 

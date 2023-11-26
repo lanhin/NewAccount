@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.loubii.account.ui.avtivity.BillDetailActivity">
+    tools:context="com.lanhin.account.ui.avtivity.BillDetailActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"

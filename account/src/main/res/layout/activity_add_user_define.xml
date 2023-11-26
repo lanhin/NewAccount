@@ -7,16 +7,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:background="@color/mainBg"
-    tools:context="com.loubii.account.ui.avtivity.AddUserDefineActivity">
+    tools:context="com.lanhin.account.ui.avtivity.AddUserDefineActivity">
 
-    <com.loubii.account.view.BaseToolbar
+    <com.lanhin.account.view.BaseToolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/colorPrimary"
         app:theme="@style/ToolbarStyle">
 
-    </com.loubii.account.view.BaseToolbar>
+    </com.lanhin.account.view.BaseToolbar>
 
     <RelativeLayout
         android:layout_width="match_parent"

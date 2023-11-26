@@ -8,15 +8,15 @@
     android:background="@color/mainBg"
     android:animateLayoutChanges="true"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.loubii.account.ui.card.CardRemindActivity">
+    tools:context="com.lanhin.account.ui.card.CardRemindActivity">
 
-    <com.loubii.account.view.BaseToolbar
+    <com.lanhin.account.view.BaseToolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/colorPrimary"
         app:theme="@style/ToolbarStyle">
-    </com.loubii.account.view.BaseToolbar>
+    </com.lanhin.account.view.BaseToolbar>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="55dp"

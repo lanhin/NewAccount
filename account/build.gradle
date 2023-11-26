@@ -6,7 +6,7 @@ android {
 //    buildToolsVersion project.properties.ANDROID_BUILD_TOOLS_VERSION
 
     defaultConfig {
-        applicationId "com.loubii.account"
+        applicationId "com.lanhin.account"
         minSdkVersion 14
         targetSdkVersion 31
         versionCode 1
@@ -26,7 +26,7 @@ android {
     greendao{
         schemaVersion 4
         targetGenDir 'src/main/java'
-        daoPackage 'com.loubii.account.db'
+        daoPackage 'com.lanhin.account.db'
     }
     // dataBinding 加入
 //    dataBinding {

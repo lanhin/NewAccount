@@ -44,11 +44,11 @@
                 app:tabIndicatorHeight="0dp">
             </com.google.android.material.tabs.TabLayout>
 
-            <com.loubii.account.view.SliderLayout
+            <com.lanhin.account.view.SliderLayout
                 android:id="@+id/slider_layout"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-            </com.loubii.account.view.SliderLayout>
+            </com.lanhin.account.view.SliderLayout>
         </FrameLayout>
 
     </LinearLayout>
